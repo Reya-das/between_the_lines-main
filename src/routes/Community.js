@@ -1,14 +1,11 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection';
+import herosectionimage from '../assets/herosectionimage.png';
 
 function Community() {
     return (
-        <div className="community">
-            <div className="hero-section">
-                <HeroSection />
-            </div>
-        </div>
+      <div className="community">
+            <img src={herosectionimage} alt="HeroSection" />
+      </div>
     );
 }
-
 export default Community;
